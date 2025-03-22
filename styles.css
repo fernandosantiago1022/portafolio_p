@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -290,14 +290,14 @@ footer p {
 }
 
 .lista-talleres i {
-    font-size: 40px; /* Ajustamos el tamaño del icono */
-    color: #1da1f2; /* Color azul */
+    font-size: 40px; 
+    color: #1da1f2;
     margin-bottom: 15px;
     transition: transform 0.3s ease;
 }
 
 .lista-talleres i:hover {
-    transform: scale(1.2); /* Aumentamos el tamaño del icono al pasar el mouse */
+    transform: scale(1.2); 
 }
 
 .taller-info h3 {
@@ -312,7 +312,7 @@ footer p {
     margin-bottom: 0;
 }
 
-/* Media Queries para Responsividad */
+
 @media (max-width: 768px) {
     .lista-talleres {
         flex-direction: column;
